@@ -29,7 +29,8 @@ a{
   justify-content: space-between;
   align-items: center; 
   width: 80vw;
-  top: 5rem;
+ 
+  margin: 1rem 0;
   position: relative;
 }
 .header_container h1{
@@ -54,12 +55,12 @@ a{
   flex-direction: row;
   justify-content:space-between;
   position: relative;
-  top: 12rem;
+ 
 }
 
 .home_container .home_head_wrapper{
   position: relative;
-  top:2rem;
+ 
   display: flex;
   flex-direction: column;
   width: 40vw;
@@ -73,15 +74,16 @@ a{
 }
 .home_container .home_head_wrapper p{
   position: relative;
-  top:-4rem;
+ 
   font-size: 2rem;
   opacity: 0.4;
 }
 .home_container .image_container img{
   position: relative;
   height: 26rem;
-  width: 18rem;
-  top:5rem;
+  /* width: 18rem; */
+  margin: 0 5px;
+ 
   border-style: solid;
   border-width: 5px;
   border-top: 0px;
@@ -95,7 +97,7 @@ a{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 18rem;
+    /* */
     width: 80vw;
 }
 .work_container h1{
@@ -121,7 +123,7 @@ a{
   display: flex;
   flex-direction: column;
   position: relative;
-  top:20rem;
+ 
 }
 .contact_container h1{
   font-size: 10rem;
@@ -131,14 +133,14 @@ a{
   width: 50vw;
   font-size: 2rem;
   position: relative;
-  top:-6rem;
+ 
   opacity: 0.4;
 }
 .contact_container .email_link{
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
   position: relative;
-  top:-4rem;
+ 
 }
 
 .contact_container ul{
@@ -154,6 +156,11 @@ a{
   font-size: 2rem;
 }
 
+.contact_container_data {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* About */
 
@@ -163,7 +170,6 @@ a{
   width: 80vw;
   justify-content: center;
   position: relative;
-  top:10rem;
 }
 .about_container h1{
   font-size: 5rem;
@@ -171,14 +177,13 @@ a{
 }
 .about_container p{
   position: relative;
-  top:-2rem;
+ 
   font-size: 1.6rem;
   width: 60vw;
   opacity: 0.4;
 }
 .about_container .about_contact{
   position: relative;
-  top:-20rem;
 }
 
 
@@ -190,7 +195,7 @@ a{
 
   .header_container {
     width: 80vw;
-    top: 2rem;
+   
   }
 
   .header_container h1 {
@@ -205,11 +210,10 @@ a{
   /* Home */
 
 .home_container {
-  top: 6rem;
+ 
 }
 
 .home_container .home_head_wrapper {
-  top: 1.5rem;
   width: 60vw;
 }
 
@@ -219,19 +223,19 @@ a{
 
 
 .home_container .home_head_wrapper p {
-  top: 0rem;
+ 
   font-size: 0.7rem;
 }
 
 .home_container .image_container img {
   height: 10rem;
-  width: 8rem;
-  top: 2rem;
+  /* width: 8rem; */
+ 
 }
 
 /* Work */
 .work_container {
-  top: 10rem;
+ 
   width: 80vw;
 }
 
@@ -256,7 +260,7 @@ a{
 /* Contact */
 
 .contact_container {
-  top: 10rem;
+ 
 }
 
 .contact_container h1 {
@@ -265,12 +269,12 @@ a{
 
 .contact_container p {
   font-size: 0.6rem;
-  top: -1rem;
+ 
 }
 
 .contact_container .email_link {
   font-size: 1rem;
-  top: 0rem;
+ 
 }
 
 .contact_container li {
@@ -294,7 +298,7 @@ a{
 
   .header_container {
     width: 80vw;
-    top: 2rem;
+   
   }
 
   .header_container h1 {
@@ -309,11 +313,10 @@ a{
   /* Home */
 
   .home_container {
-    top: 6rem;
+   
   }
 
   .home_container .home_head_wrapper {
-    top: 1.5rem;
     width: 60vw;
   }
 
@@ -323,19 +326,18 @@ a{
 
 
   .home_container .home_head_wrapper p {
-    top: 0rem;
+   
     font-size: 0.7rem;
   }
 
   .home_container .image_container img {
     height: 10rem;
-    width: 8rem;
-    top: 2rem;
+    /* width: 8rem; */
   }
 
   /* Work */
   .work_container {
-    top: 10rem;
+   
     width: 80vw;
   }
 
@@ -360,7 +362,7 @@ a{
   /* Contact */
 
   .contact_container {
-    top: 10rem;
+   
   }
 
   .contact_container h1 {
@@ -369,12 +371,12 @@ a{
 
   .contact_container p {
     font-size: 0.6rem;
-    top: -1rem;
+   
   }
 
   .contact_container .email_link {
     font-size: 1rem;
-    top: 0rem;
+   
   }
 
   .contact_container li {
@@ -384,7 +386,6 @@ a{
   .contact_container li a {
     font-size: 0.5rem;
   }
-
 
 }
 

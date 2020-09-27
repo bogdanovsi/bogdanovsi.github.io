@@ -8,11 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/about">
-        <About></About>
+        <Route path="/itmo-labs">
+          <About></About>
         </Route>
         <Route path="/" exact>
-        <Landing></Landing>
+          <Landing></Landing>
         </Route>
       </Switch>
     </BrowserRouter>
