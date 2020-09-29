@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import About from './components/About';
 import Landing from './components/Landing';
 
@@ -12,7 +12,7 @@ import You from './you/Page';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Switch>
         <Route path="/itmo-labs">
           <About></About>
@@ -31,7 +31,7 @@ function App() {
           </CenterBox>
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

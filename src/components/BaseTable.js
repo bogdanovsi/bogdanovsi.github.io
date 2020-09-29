@@ -8,6 +8,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Link from '@material-ui/core/Link';
+import { Link as RouteLink } from "react-router-dom";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 import data from './yourdata';
@@ -45,7 +46,7 @@ export default function BasicTable() {
   const classes = useStyles();
 
   return (
-    <ThemeProvider theme={darkTheme}>  
+    <ThemeProvider theme={darkTheme}>
       <TableContainer component={Paper}>
         <Table className={classes.table} aria-label="simple table">
           <TableHead>
@@ -63,13 +64,25 @@ export default function BasicTable() {
                   {row.id}
                 </TableCell>
                 <TableCell component="th" scope="row">
-                  <Link href={row.issues} target="_blank" color='inherit'>{row.title}</Link>                
+                  <Link href={row.issues} target="_blank" color='inherit'>
+                    {row.title}
+                  </Link>
                 </TableCell>
                 <TableCell align="center">
-                  {row.solution != null && row.solution != '' && <Link href={row.solution} target="_blank" color='inherit'>Solution</Link>}
+                  {row.solution != null && row.solution != '' && (
+                    row.solution.indexOf('://') !== -1 ?
+                      <Link href={row.solution} target="_blank" color='inherit'>Source</Link>
+                      : <RouteLink to={row.solution} target="_blank">Solution</RouteLink>
+                  )
+                  }
                 </TableCell>
                 <TableCell align="center">
-                  {row.source != null && row.source != '' && <Link href={row.source} target="_blank" color='inherit'>Source</Link> }
+                  {row.source != null && row.source != '' &&
+                    (row.source.indexOf('://') !== -1 ?
+                    <Link href={row.source} target="_blank" color='inherit'>Source</Link>
+                    :
+                    <RouteLink to={row.source} target="_blank">Solution</RouteLink>)
+                  }
                 </TableCell>
               </TableRow>
             ))}

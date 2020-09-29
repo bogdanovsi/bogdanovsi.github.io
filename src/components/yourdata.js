@@ -85,7 +85,7 @@ export default {
         id: 8,
         title: "FUNC 008",
         issues: "https://kodaktor.ru/func_008",
-        solution: "",
+        solution: "https://kodaktor.ru/func_f7350",
         source: ""
       },
       {
@@ -128,42 +128,42 @@ export default {
         title: "FRMW 001",
         issues: "https://kodaktor.ru/frmw_001",
         solution: "/frmw_001",
-        source: "/frmw_001"
+        source: "https://github.com/bogdanovsi/bogdanovsi.github.io/blob/master/src/frmw/frmw_001.js"
       },
       {
         id: 15,
         title: "FRMW 002",
         issues: "https://kodaktor.ru/frmw_002",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://vue-ayp42c.stackblitz.io/",
+        source: "https://stackblitz.com/edit/vue-ayp42c?file=src/App.vue"
       },
       {
         id: 16,
         title: "FRMW 003",
         issues: "https://kodaktor.ru/frmw_003",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://vue-qkqxqg.stackblitz.io",
+        source: "https://stackblitz.com/edit/vue-qkqxqg?file=src/App.vue"
       },
       {
         id: 17,
         title: "FRMW 004",
         issues: "https://kodaktor.ru/frmw_004",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://vue-p6sssk.stackblitz.io",
+        source: "https://stackblitz.com/edit/vue-p6sssk?file=src/components/Degs.vue"
       },
       {
         id: 18,
         title: "FRMW 005",
         issues: "https://kodaktor.ru/frmw_005",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://vue-1qlwcd.stackblitz.io",
+        source: "https://stackblitz.com/edit/vue-1qlwcd?file=src/App.vue"
       },
       {
         id: 19,
         title: "YOU",
         issues: "https://kodaktor.ru/you",
         solution: "/you",
-        source: ""
+        source: "https://github.com/bogdanovsi/bogdanovsi.github.io/tree/master/src/you"
       }
     ]
   },
