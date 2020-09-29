@@ -66,10 +66,10 @@ export default function BasicTable() {
                   <Link href={row.issues} target="_blank" color='inherit'>{row.title}</Link>                
                 </TableCell>
                 <TableCell align="center">
-                  {row.solution != null && row.solution != '' && <Link href={row.solution} target="_blank">Solution</Link>}
+                  {row.solution != null && row.solution != '' && <Link href={row.solution} target="_blank" color='inherit'>Solution</Link>}
                 </TableCell>
                 <TableCell align="center">
-                  {row.source != null && row.source != '' && <Link href={row.source} target="_blank">Source</Link> }
+                  {row.source != null && row.source != '' && <Link href={row.source} target="_blank" color='inherit'>Source</Link> }
                 </TableCell>
               </TableRow>
             ))}

@@ -19,44 +19,14 @@ export default {
 
   // Change Projects Here
   projects: [
-    {
-      id: 1,
-      title: "Project One", //Project Title - Add Your Project Title Here
-      // Image Size Should be (300X300 px)
-      imageSrc: "https://via.placeholder.com/300",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/"
-    },
-    {
-      id: 2,
-      title: "Project Two",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    },
-    {
-      id: 3,
-      title: "Project Three",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    },
-    {
-      id: 4,
-      title: "Project Four",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    },
-    {
-      id: 5,
-      title: "Project Five",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    },
-    {
-      id: 6,
-      title: "Project Six",
-      imageSrc: "https://via.placeholder.com/300",
-      url: "http://chetanverma.com/"
-    }
+    // {
+    //   id: 1,
+    //   title: "Project One", //Project Title - Add Your Project Title Here
+    //   // Image Size Should be (300X300 px)
+    //   imageSrc: "https://via.placeholder.com/300",
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/"
+    // }
   ],
 
   // Change Projects Here
@@ -150,15 +120,15 @@ export default {
         id: 13,
         title: "EVENT_002",
         issues: "https://kodaktor.ru/evnt_002",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/custom_baec0",
+        source: ""
       },
       {
         id: 14,
         title: "FRMW 001",
         issues: "https://kodaktor.ru/frmw_001",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "/frmw_001",
+        source: "/frmw_001"
       },
       {
         id: 15,
@@ -192,8 +162,8 @@ export default {
         id: 19,
         title: "YOU",
         issues: "https://kodaktor.ru/you",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "/you",
+        source: ""
       }
     ]
   },
