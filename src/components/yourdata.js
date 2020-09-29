@@ -143,8 +143,8 @@ export default {
         id: 12,
         title: "Bubl 002",
         issues: "https://kodaktor.ru/bind02032018",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/bind02032018_1f982",
+        source: ""
       },
       {
         id: 13,
