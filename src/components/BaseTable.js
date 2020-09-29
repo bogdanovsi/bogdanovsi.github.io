@@ -69,7 +69,7 @@ export default function BasicTable() {
                   {row.solution != null && row.solution != '' && <Link href={row.solution} target="_blank">Solution</Link>}
                 </TableCell>
                 <TableCell align="center">
-                  <Link href={row.source} target="_blank">Source</Link>   
+                  {row.source != null && row.source != '' && <Link href={row.source} target="_blank">Source</Link> }
                 </TableCell>
               </TableRow>
             ))}

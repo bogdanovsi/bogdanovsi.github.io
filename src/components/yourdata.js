@@ -73,71 +73,71 @@ export default {
         id: 2,
         title: "FUNC 002",
         issues: "https://kodaktor.ru/func_002",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_a11ff",
+        source: ""
       },
       {
         id: 3,
         title: "FUNC 003",
         issues: "https://kodaktor.ru/func_003",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_992cc",
+        source: ""
       },
       {
         id: 4,
         title: "FUNC 004",
         issues: "https://kodaktor.ru/func_004",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_15b8a",
+        source: ""
       },
       {
         id: 5,
         title: "FUNC 005",
         issues: "https://kodaktor.ru/func_005",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_bd13b",
+        source: ""
       },
       {
         id: 6,
         title: "FUNC 006",
         issues: "https://kodaktor.ru/func_006",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_9e64e",
+        source: ""
       },
       {
         id: 7,
         title: "FUNC 007",
         issues: "https://kodaktor.ru/func_007",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_38687",
+        source: ""
       },
       {
         id: 8,
         title: "FUNC 008",
         issues: "https://kodaktor.ru/func_008",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "",
+        source: ""
       },
       {
         id: 9,
         title: "FUNC 009",
         issues: "https://kodaktor.ru/func_009",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_ba663",
+        source: ""
       },
       {
         id: 10,
         title: "FUNC 010",
         issues: "https://kodaktor.ru/func_010",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://kodaktor.ru/func_29998",
+        source: ""
       },
       {
         id: 11,
         title: "ASYNC TASK",
         issues: "https://kodaktor.ru/async_tasks",
-        solution: "http://chetanverma.com/",
-        source: "http://chetanverma.com/"
+        solution: "https://codepen.io/bogdanovsi/pen/YzqbqeJ",
+        source: ""
       },
       {
         id: 12,
