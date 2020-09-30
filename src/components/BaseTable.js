@@ -71,7 +71,7 @@ export default function BasicTable() {
                 <TableCell align="center">
                   {row.solution != null && row.solution != '' && (
                     row.solution.indexOf('://') !== -1 ?
-                      <Link href={row.solution} target="_blank" color='inherit'>Source</Link>
+                      <Link href={row.solution} target="_blank" color='inherit'>Solution</Link>
                       : <RouteLink to={row.solution} target="_blank">Solution</RouteLink>
                   )
                   }
@@ -81,7 +81,7 @@ export default function BasicTable() {
                     (row.source.indexOf('://') !== -1 ?
                     <Link href={row.source} target="_blank" color='inherit'>Source</Link>
                     :
-                    <RouteLink to={row.source} target="_blank">Solution</RouteLink>)
+                    <RouteLink to={row.source} target="_blank">Source</RouteLink>)
                   }
                 </TableCell>
               </TableRow>
